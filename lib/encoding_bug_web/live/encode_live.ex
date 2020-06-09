@@ -6,8 +6,8 @@ defmodule EncodingBugWeb.EncodeLive do
     {:ok,
      socket
      |> assign(i: 0)
-     |> assign(a: "HiThere")
-     |> assign(b: "Hi There")}
+     |> assign(a: "\"HiThere\"")
+     |> assign(b: "\"Hi There\"")}
   end
 
   @impl true
